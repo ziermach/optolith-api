@@ -1,0 +1,35 @@
+{
+  "include": [
+    "src/**/*", "createSchema.ts"
+  ],
+  "ts-node": {
+    // these options are overrides used only by ts-node
+    // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
+    "compilerOptions": {
+      "strict": true,
+      "lib": ["ESNext"],
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "target": "ESNext",
+      "outDir": "build",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUncheckedIndexedAccess": true,
+      "sourceMap": true,
+    }
+  },
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["ESNext"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "outDir": "build",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "sourceMap": true,
+  }
+}
